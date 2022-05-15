@@ -22,7 +22,7 @@ public class Rectangulo extends Poligono{
 
     @Override
     public String toString() {
-        return "Rectangulo{" + super.toString()+ "lado1=" + lado1 + ", lado2=" + lado2 + '}';
+        return "Rectangulo{ " + super.toString()+ " lado1=" + lado1 + ", lado2=" + lado2 + '}';
     }
   @Override
     public double area(){
