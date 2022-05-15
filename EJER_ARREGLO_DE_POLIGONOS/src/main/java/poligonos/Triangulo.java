@@ -29,7 +29,9 @@ public class Triangulo extends Poligono {
     
     @Override
     public double area(){
-        double p = (lado1 + lado2 + lado3)/3;
-        return Math.sqrt((p * (p - lado1) * (p - lado2) * (p -lado3)));
+        double area;
+        double p = (lado1 + lado2 + lado3)/2;
+        area = Math.sqrt((p * (p - lado1) * (p - lado2) * (p -lado3)));
+        return  area;
     }
 }
